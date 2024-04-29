@@ -1,0 +1,11 @@
+@media (max-width: 45em) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 43em) {
+  .section-testmonial {
+    max-width: 50%;
+  }
+}

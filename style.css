@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+
+}
+.section-testmonial {
+  max-width: 100%;
+  background-color: #413636;
+}
+
+.container {
+  max-width: 50rem;
+  margin: auto;
+
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url("istockphoto-1341288649-612x612.jpg");
+  background-size: cover;
+  padding: 5rem 9rem;
+  height: auto;
+}
+
+.heading {
+  font-size: 7rem;
+  font-weight: 700;
+  padding: 4rem;
+  margin-bottom: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testmonials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testmonial {
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgb(15, 87, 164);
+  background-color: #fff;
+  border-radius: 60px;
+  position: relative;
+}
+.testmonial::before {
+  content: "\f10d";
+  font-family: FontAwesome;
+  position: absolute;
+  left: +25px;
+  top: -45px;
+  font-size: 90px;
+  color: #aaa;
+  /* background-color: #aaa; */
+  width: 100px;
+  height: 100px;
+}
+
+.testmonial::after {
+  content: "\f10e";
+  font-family: FontAwesome;
+  position: absolute;
+  right: +12px;
+  bottom: -47px;
+  font-size: 90px;
+  color: #aaa;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.testmonial-img {
+  height: 70%;
+  width: 20%;
+  border-radius: 50%;
+  margin-top: -4rem;
+  border: 5px solid rgb(15, 87, 164);
+  padding: 5px;
+}
+.testmonial-text {
+  font-size: 1.5rem;
+  padding: 5rem 4rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.streem {
+  display: flex;
+  align-self: start;
+  flex-direction: column;
+}
+.testmonial-name {
+  margin-left: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+.testmonial-pro {
+  margin-left: 3rem;
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+.btn {
+  display: flex;
+  position: absolute;
+  left: 78%;
+  bottom: 15%;
+  transform: translate(-50%, -50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.star-icon {
+  width: 35px;
+  height: 35px;
+  stroke: rgb(28, 91, 169);
+}
